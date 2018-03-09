@@ -1,0 +1,9 @@
+#main-menu, #main-menu>li>a {
+    font-weight: bold;
+    color:rgba(255,255,255,0.8);
+}
+
+#main-menu>li>a:hover {
+    font-weight: bold;
+    color:rgba(255,255,255,1);
+}
