@@ -64,7 +64,7 @@ CREATE TABLE pump_type (
   sng_min_csg_in        NUMERIC(10, 3),
   int_min_stages        INTEGER,
   int_max_stages        INTEGER,
-  sng_stageLen_ft       NUMERIC(10, 3),
+  sng_stage_len_ft       NUMERIC(10, 3),
   int_std_burst_psi     NUMERIC(10, 3),
   int_hs_burst_psi      NUMERIC(10, 3),
   int_uhs_burst_psi     NUMERIC(10, 3),
@@ -152,7 +152,7 @@ COMMENT ON COLUMN pump_type.sng_pump_od_in IS 'Внешний диаметр';
 COMMENT ON COLUMN pump_type.sng_min_csg_in IS 'Минимальный диаметр ЭК';
 COMMENT ON COLUMN pump_type.int_min_stages IS 'Минимально ступеней';
 COMMENT ON COLUMN pump_type.int_max_stages IS 'Макс ступеней';
-COMMENT ON COLUMN pump_type.sng_stageLen_ft IS 'Длина ступени в футах';
+COMMENT ON COLUMN pump_type.sng_stage_len_ft IS 'Длина ступени в футах';
 COMMENT ON COLUMN pump_type.int_std_burst_psi IS 'Макс. Давление в psi стандартно';
 COMMENT ON COLUMN pump_type.int_hs_burst_psi IS 'Макс. Давление в psi высокопрочном исполнении';
 COMMENT ON COLUMN pump_type.int_uhs_burst_psi IS 'Макс. Давление в psi ултра высокопрочном исполнении';
